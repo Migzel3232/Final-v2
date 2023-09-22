@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo {
+    position: absolute;
+    z-index: 2;
+    color: black;
+    left: 50%;
+    top: 16px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 24px; 
+    text-shadow: 2px 2px 4px rgba(128, 128, 128); 
+}
+
+.titulo2 {
+    color: black;
+    margin-top: 100px;
+    margin-left: -1200px;
+    font-size: 36px; 
+    text-shadow: 2px 2px 4px rgb(128, 128, 128); 
+}
+
+.titulo3 {
+    color: black;
+    margin-top: 50px;
+    margin-left: 1200px;
+    font-size: 36px; 
+    text-shadow: 2px 2px 4px rgb(128, 128, 128); 
+    position: absolute;
+    
+}
+
+.titulo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo3 a{
+
+
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../Imagen/James\ Packer\ buys\ $60\ million\ Crown\ penthouse.jpeg);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Tabla {
+    width: 600px;
+    height: 400px;
+    margin: 10px auto; 
+    border: 5px solid black;
+    text-align: center; 
+    padding-top: 100px;
+    background-color: white;
+}
+
+form {
+
+    
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    margin-top: 40px;
+    font-size: 24px; 
+    padding: 10px; 
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+input[type="button"] {
+    margin-top: 40px;
+    font-size: 24px; 
+    padding: 10px; 
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3429ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a8adf;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resultados {
+    background-color: #3429ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.resultados span {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+
+.BotonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+  
+ 
+  .Boton {
+    background-color: #3429ff; 
+    padding: 10px 20px; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+  }
+  
+ 
+.Boton:hover {
+    background-color: #2c24e3; 
+}
+
+.letras{
+
+
+    font-size: 40px; 
+}
+
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
